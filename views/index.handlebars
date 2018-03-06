@@ -3,7 +3,7 @@
 <h2>List Of Burgers!</h2>
 
 <ul>
-  {{#each burgers_data}}
+  {{#each burgers}}
     {{#unless devoured}}
       {{> burgers/burgers-block devoured=true}}
     {{/unless}}
@@ -13,7 +13,7 @@
 <h2>Burgers Devoured!</h2>
 
 <ul>
-  {{#each burgers_data}}
+  {{#each burgers}}
     {{#if devoured}}
       <li>{{name}}</li>
     {{/if}}
