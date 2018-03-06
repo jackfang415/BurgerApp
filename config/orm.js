@@ -41,14 +41,14 @@ var orm = {
     });
   },
 
-  create: function(table, cols, burgerVal, cb) {
+  create: function(table, cols, vals, cb) {
     var queryString = "INSERT INTO " + table;
 
     queryString += " (";
     queryString += cols.toString();
     queryString += ") ";
     queryString += "VALUES (";
-    queryString += printQuestionMarks(burgerVal.length);
+    queryString += printQuestionMarks(vals.length);
     queryString += ") ";
 
     console.log(queryString);
