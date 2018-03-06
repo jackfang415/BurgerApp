@@ -1,6 +1,6 @@
 var orm = require("../config/orm.js");
 
-var menu = {
+var burger = {
   all: function(cb) {
     orm.all("burgers_data", function(res) {
       cb(res);
@@ -20,4 +20,4 @@ var menu = {
   }
 };
 
-module.exports = menu;
+module.exports = burger;
