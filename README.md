@@ -1,6 +1,6 @@
 # BurgerApp
 
-he bamazon app allows the user to enter the store and choose one of the 10 items for purchase and choose the quantity. The user would be able to see the total cost before exiting the store.
+The app allows the users to insert the burger of their choice and devour the burger. 
 
 
 ### Before running the program
@@ -30,4 +30,4 @@ he bamazon app allows the user to enter the store and choose one of the 10 items
 
 ## Authors
 
-* **Jack Fang** - *Bamazon*
+* **Jack Fang** - *Burger App*
